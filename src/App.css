@@ -1,0 +1,135 @@
+body{
+  min-height:100vh;
+  /* background-image: linear-gradient(to right top, #7d6bd1, #725ddb, #654fe4, #553fed, #402df5, #472df8, #4e2cfc, #552cff, #7041ff, #8555ff, #9868ff, #a87aff); */
+}
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  gap:2rem;
+  margin-left: 1rem;
+  justify-content: space-evenly;
+  
+}
+ .profile-picture{
+  height:30rem;
+  width:30rem;
+  margin-left:2.5rem;
+
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.profile-title{
+  text-align: center;
+  transition: 1sec all;
+}
+
+.profile-div{
+  margin-top:5rem;
+  border: 1px solid black;
+  border-radius:1rem;
+  background-image: linear-gradient(to right top, #e8e7ed, #dfdcf1, #d5d2f4, #cbc7f8, #c0bdfb, #bbb7f4, #b5b0ee, #b0aae7, #aea6d6, #aba3c6, #a6a0b6, #a09da6);
+  width:35rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  height:min-content;
+}
+
+.profile-title:hover{
+  color:green;
+}
+
+.profile-rating{
+  text-align:right;
+  margin-right: 10px;
+}
+
+.counter-likdis{
+  text-align: center;
+  gap: 1rem;
+  
+}
+
+.profile-input{
+  display:flex;
+  flex-direction: column;
+  text-align:center;
+  border-radius:1rem;
+  background-image: linear-gradient(to right top, #e8e7ed, #dfdcf1, #d5d2f4, #cbc7f8, #c0bdfb, #bbb7f4, #b5b0ee, #b0aae7, #aea6d6, #aba3c6, #a6a0b6, #a09da6);
+  width:35rem;
+  margin-left:25rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  height:20rem;
+  width: 30rem;
+  border: 3px solid blue;
+  padding: 10px;
+
+}
+
+
+
+.add-button{
+  position: relative;
+  top:5rem;
+  width:50%;
+  left:8rem;
+  margin-top:15rem;
+}
+
+.AddColor{
+  position: relative;
+  left:17rem;
+  top:15rem;
+}
+
+.home-layout{
+  height:50rem;
+  background-image: url("https://images.unsplash.com/photo-1586521995568-39abaa0c2311?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+  color:rgb(255, 255, 255);
+  font-size:5rem;
+  text-align:center;
+  width:100vw;
+  object-fit: cover;
+}
+
+
+.color-input{
+  width:40rem;
+  height:3rem;
+}
+
+.profile-div-select{
+
+  margin-top:5rem;
+  border: 1px solid black;
+  border-radius:1rem;
+  background-image: linear-gradient(to right top, #e8e7ed, #dfdcf1, #d5d2f4, #cbc7f8, #c0bdfb, #bbb7f4, #b5b0ee, #b0aae7, #aea6d6, #aba3c6, #a6a0b6, #a09da6);
+  width:35rem;
+  padding: 1rem;
+  margin-left: 10rem;
+}
+
+.profile-edit{
+  display:flex;
+  flex-direction: column;
+  text-align:center;
+  border-radius:1rem;
+  background-image: linear-gradient(to right top, #e8e7ed, #dfdcf1, #d5d2f4, #cbc7f8, #c0bdfb, #bbb7f4, #b5b0ee, #b0aae7, #aea6d6, #aba3c6, #a6a0b6, #a09da6);
+  width:35rem;
+  margin-left:15rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  height:20rem;
+  width: 30rem;
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+
+
+
+.ToggleColor{
+  background-color: purple;
+}
